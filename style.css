@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #99a362d5;
+    position: sticky;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid lightslategray;
+
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.logo h1 {
+    padding: 15px;
+}
+
+nav a:hover{
+    color: grey;
+    border-bottom: 2px solid black;
+    transition: 150ms ;
+}
+nav {
+    display: none;
+}
+nav a {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 15px;
+
+}
+
+.sidenav {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.801);
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 999;
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    transition: all 500ms;
+    
+}
+
+div:target {
+    right: 0;
+}
+
+.socials {
+    display: flex;
+    font-size: 2rem;
+    padding: 75px;
+}
+
+.banner {
+    height: 1100px;
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+    justify-content: end;
+    align-content: center;
+    
+}
+.banner h1 {
+    padding-top: 750px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.btn {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    outline: none;
+    background: none;
+    background-color: rgba(207, 238, 161, 0.822);
+    border-radius: 15px;
+}
+
+.tigers, h1, p{
+    padding: 15px;
+    color: black;
+
+}
+
+.tigers {
+    background-color: beige;
+}
+
+.tigers h1{
+    background-color: rgba(168, 164, 164, 0.664);
+}
+
+.tigers p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: white;
+
+}
+
+.species-wrapper {
+    width: 100%;
+    background-color: beige;
+    padding: 20px;
+    gap: 25px;
+
+}
+.species {
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    
+    
+}
+
+.species img{
+    width: 100%;
+    border-radius: 25px 0 0 25px;
+    height: 250px;
+
+}
+
+
+.about-them {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: black;
+    border-radius: 25px;
+    font-weight: 700;
+
+
+}
+.endangered {
+    color: orange;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.critical {
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.extinct {
+    color: grey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.species img {
+    width: 100%;
+}
+
+.sidenav a {
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    background-color: white;
+    color: black;
+    transition: all 500ms;
+
+}
+
+.about-them, h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+footer h5 {
+    text-align: center;
+    font-size: 24px;
+}
+
+footer {
+    background-image: url(./images/stripes.jpg);
+}
+
+footer {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-evenly;
+
+}
+
+
+.contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+    
+    
+}
+.contents a {
+    color: white;
+
+    font-weight: 600;
+
+}
+.social {
+    display: flex;
+}
+
+
+
+.content div {
+    padding: 10px;
+    gap: 5px;
+    justify-items: center;
+
+
+}
+
+.container {
+    padding: 15px;
+
+}
+
+.save {
+    height: 700px;
+    margin-top: 15px;
+    background-color: beige;
+}
+
+h4, h2 {
+    color: white;
+}
+
+.tbh {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    font-weight: 700;
+    outline: none;
+    background-color: white;
+    border-radius: 15px; 
+    
+}
+
+.tiger-wrapper {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 400px));
+    grid-auto-rows: 450px;
+    justify-content: center;
+  
+  
+}
+.tiger {
+    width: 100%;
+    height: 100%;
+}
+.tiger-thumbnail {
+    width: 100%;
+    height: 100%;
+}
+.tiger-thumbnail img{
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    
+}
+.tiger-detail {
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 0 30% 0 30%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -100%;
+    opacity: 0;
+    transition: all 700ms;
+    display: grid;
+
+}
+.buton {
+    text-align: center;
+}
+.tbh:hover {
+    background-color: black;
+    color: white;
+    transition: all 700ms;
+}
+.tiger-info h1{
+    color: white;
+    
+}
+.dono {
+    height: 500px;
+}
+
+.biggest-dono {
+    height: 120px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    justify-content: space-between;
+    
+}
+.dono-thumbnail, .donos-thumbnail {
+    align-items: center;
+}
+.dono-thumbnail img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 3px solid black;
+    
+}
+
+.donos {
+    display: flex;
+    align-items:center;
+}
+.donos-thumbnail img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.donos h1{
+    font-size: 12px;
+
+}
+
+.dono-wrapper {
+    margin: 15px;
+    justify-content: center;
+    display: grid;
+}
+.small-donos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+  
+
+.tiger:hover .tiger-detail {
+    opacity: 1;
+}
+
+.about-them h2 {
+    color: black;
+}
+
+
+
+
+
+
+
+

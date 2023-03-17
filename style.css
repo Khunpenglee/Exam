@@ -278,7 +278,7 @@ h4, h2 {
 .tiger-wrapper {
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(4, minmax(300px, 400px));
+    grid-template-columns: repeat( minmax(300px, 400px));
     grid-auto-rows: 450px;
     justify-content: center;
   
@@ -371,7 +371,11 @@ h4, h2 {
 }
 .small-donos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.save {
+    height: auto;
 }
 
 
@@ -389,6 +393,14 @@ h4, h2 {
 
 .about-them h2 {
     color: black;
+}
+.tiger-wrapper {
+    gap: 15px;
+}
+
+.dono-wrapper {
+    gap: 15px;
+    
 }
 
 

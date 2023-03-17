@@ -17,6 +17,12 @@
     .species img {
         width: 100%;
     }
+    .tiger-wrapper {
+        grid-template-columns: repeat(2, minmax(300px, 400px));
+    }
+    .small-donos {
+        grid-template-columns: 1fr 1fr;
+    }
 
 
 
@@ -58,6 +64,22 @@
     }
     .species img {
         width: 50%;
+    }
+
+    .tiger-wrapper {
+        grid-template-columns: repeat(4, minmax(300px, 400px));
+    }
+
+    .small-donos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .biggest-dono p {
+        font-weight: 1000;
+    }
+
+    .donos p {
+        font-weight: 700;
     }
 
 

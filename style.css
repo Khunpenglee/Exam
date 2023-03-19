@@ -18,15 +18,18 @@ header {
     position: sticky;
     display: flex;
     top: 0;
-    
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid lightslategray;
     z-index: 999;
 
+
 }
 
+nav a{
+    border-right: 2px solid white;
 
+}
 
 .logo {
     display: flex;
@@ -328,7 +331,11 @@ h4, h2 {
 }
 
 .tiger-info {
-    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     
 }
 .tiger-info h2 {
@@ -351,7 +358,6 @@ h4, h2 {
 }
 
 .biggest-dono {
-    height: 120px;
     border-radius: 25px;
     background-color: white;
     display: flex;
@@ -415,6 +421,50 @@ h4, h2 {
     gap: 15px;
     
 }
+
+.progress {
+    width: 80%;
+    align-items: center;
+}
+.goal {
+    width: 100%;
+    background-color: rgb(252, 250, 250);
+    height: 20px;
+    border-radius: 15px;
+}
+.goal-percent {
+    height: 100%;
+    width: 64%;
+    border-radius: 15px 0 0 15px;
+    background-image: url(./images/stripes.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.goal-percent2 {
+    height: 100%;
+    width: 61%;
+    border-radius: 15px 0 0 15px;
+    background-image: url(./images/stripes.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.goal-percent3 {
+    height: 100%;
+    width: 93%;
+    border-radius: 15px 0 0 15px;
+    background-image: url(./images/stripes.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
 
 
 

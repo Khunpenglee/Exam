@@ -254,10 +254,6 @@ footer {
 
 }
 
-.container {
-    padding: 15px;
-
-}
 
 .save {
     height: 700px;
@@ -467,9 +463,92 @@ h4, h2 {
 
 
 
+.thumbnails img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 25px;
+    
+}
+
+.ranger-thumbnail img{
+    border-radius: 25px; 
+    justify-content: center;
+}
+
+
+
+.ranger-detail {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: grid;
+    gap: 15px;
+    color: whitesmoke;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    transition: all 500ms;
+    border-radius: 25px;
+}
+.about-species {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.save-our-tigers {
+    color: black;
+    background-color: orange;
+}
+.ranger {
+    height: 1224px;
+    overflow: hidden;
+}
+.ranger:hover .ranger-detail {
+    transform: translateY(-100%);
+}
+.ranger-wrapper {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    
+}
+
+.ranger-detail p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    
+}
+.ranger-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.tiger-ranger {
+    width: 25%;
+
+}
+
+
+
+/* .ranger-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
 
 
 
 
+.ranger:hover .ranger-detail {
+    transform: translateY(-100%);
+}
 
+ */
 
